@@ -58,7 +58,7 @@ export const API: ApiMap = {
       "pagetoken"
     ],
     path: "nearbysearch",
-    requiredKeys: ["location", "radius"]
+    requiredKeys: ["location"]
   },
   RADAR_SEARCH: {
     optionalKeys: [
